@@ -31,6 +31,11 @@ img {
   box-sizing: border-box;
 }
 
+img:hover {
+  transition-duration: 1s;
+  transform: scale(1.05);
+}
+
 h4.amiable {
   background: linear-gradient(to right, #008822, #22aa44);
   border: 1px solid #22aa44;
